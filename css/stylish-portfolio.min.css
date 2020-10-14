@@ -44,6 +44,11 @@ h5,
 h6 {
   font-weight: 700;
 }
+
+b, strong {
+  font-weight: 500;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -523,9 +528,10 @@ a:hover {
   font-family: 'Fira Mono', monospace;
   font-weight: 400;
   color: black;
-  font-size: 42px;
+  font-size: 34px;
   text-align: left;
   padding-top: 0px;
+  line-height: 41px;;
 
 }
 
@@ -1674,7 +1680,7 @@ body:not(.mobile) .hover-title:hover + .hover-image {
   position: absolute;
   background: url(../img/nube-47.png);
   background-size: 10px;
-  top: 48px;
+  top: 37px;
   bottom: 0px;
   left: 0;
   -webkit-animation: zigzagPlay 2s infinite linear;
